@@ -1,0 +1,19 @@
+{
+  "name": "codepen_final_english_class_project",
+  "version": "1.0.0",
+  "description": "_A Pen created at CodePen.io. Original URL: [https://codepen.io/iziz96/pen/VJWjJY](https://codepen.io/iziz96/pen/VJWjJY).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dancar528/news_english_class.git"
+  },
+  "author": "Daniela <dancar.528@gmail.com> (https://twitter/dcardoh)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dancar528/news_english_class/issues"
+  },
+  "homepage": "https://github.com/dancar528/news_english_class#readme"
+}
