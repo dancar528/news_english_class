@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Video.js Default Skin</title>
+  <link rel='stylesheet' href='https://vjs.zencdn.net/5-unsafe/video-js.css'><link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+  Don't use the "5-unsafe" CDN version in your own code. It will break on you. 
+  Instead go to videojs.com and copy the CDN urls for the latest version.
+-->
+
+<div id="instructions">
+
+  <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px"
+      controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
+      data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+    <source src="test.mp4" type='video/mp4' />
+  </video>
+
+  <h2>A BRIEFLY NEWS DESCRIPTION</h2>
+  <p>briefly news description goes here</p>
+</div>
+  
+<style>
+  #instructions { max-width: 640px; text-align: left; margin: 30px auto; }
+  #instructions textarea { width: 100%; height: 100px; }
+  
+  /* Show the controls (hidden at the start by default) */
+  .video-js .vjs-control-bar { 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  /* Make the demo a little prettier */
+  body {
+    margin-top: 20px;
+    background: #222;
+    text-align: center; 
+    color: #aaa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: radial-gradient(#333, hsl(200,30%,6%) );
+  }
+
+  a, a:hover, a:visited { color: #76DAFF; }
+</style>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://vjs.zencdn.net/5-unsafe/video.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
