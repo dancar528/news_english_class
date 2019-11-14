@@ -51,3 +51,7 @@
     background-color: #1b4e80;
     text-decoration: none;
 }
+
+footer ul li {
+    padding: 5px 0;
+}
