@@ -1,3 +1,6 @@
+<?php
+    echo 'but';
+?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
